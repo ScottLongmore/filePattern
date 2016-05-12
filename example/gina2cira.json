@@ -1,0 +1,13 @@
+{
+  "library":"libvspp",
+  "inputs":{
+    "gina2cira":{
+       "dirs":["/local/home/slongmore/Projects/GINA/dev/vspp/data/gina/^npp\\.\\d{5}\\.\\d{4}$/viirs/"],
+       "re":"^(?P<id>\\w+)_(?P<sat>\\w+)_d(?P<YYYY>\\d{4})(?P<mm>\\d{2})(?P<dd>\\d{2})_t(?P<HH>\\d{2})(?P<MM>\\d{2})(?P<SSS>\\d{3})_e\\d{7}_b\\d{5}_c\\d{20}_(?P<src>\\w+)_(?P<env>\\w+)\\.h5$",
+       "delta":129600,
+       "actions":["gina2cira"],
+       "targetRootDir":"/local/home/slongmore/Projects/GINA/dev/vspp/data/cira/"
+    }
+  }
+}
+
