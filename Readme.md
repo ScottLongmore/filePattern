@@ -2,7 +2,7 @@
 File Pattern
 =====
 
-:Description: Performs JSON configuration and python library specified file selection, filtering, and actions.  
+:Description: nterface to create, substitute template strings, and determine file paths utilizing a file path regular expression 
 :Keywords: python, file, search, regular expression  
 :Version Number: v0.1.0  
 :Release Date: 2016/05/12  
@@ -20,4 +20,4 @@ File Pattern
 **Directory Structure**  
 * src/ - hosts the python modules  
 * lib/ - linked python library modules  
-* example/ - example uses  
+* example/ - example uses
