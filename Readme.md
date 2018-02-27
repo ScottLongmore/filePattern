@@ -7,7 +7,6 @@ Last Edit: 2014-08-20
 Author: Scott Longmore, Cooperative Institute for Research in the Atmosphere (CIRA)   
 Contact: Scott.Longmore@colostate.edu  
 
-=====
 File Pattern
 =====
 **Development Team**  
